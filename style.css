@@ -69,14 +69,111 @@ body{
 .container button:hover{
     background-color:#069782 ;
 }
-h3{
-    padding: 8px 10px;
-    /* background-color: #11117d; */
+footer {
+    background-color: #0a0d62;
+    color: #fff;
+    padding: 10px;
     text-align: center;
-    margin-bottom: -90%;
-    justify-content: center;
-    font-weight: 400;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
-h3 span{
+.dev-name{
     color: yellow;
+}
+
+
+
+
+@media (max-width: 650px) {
+    .container{
+        margin: 8%;
+    width: 60%;
+    max-width: 500px;
+    }
+    .container h1{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .container h1 span{
+        color: #04c0a4;
+        border-bottom: 3px solid #04c0a4;
+        padding-bottom: 15px;
+    }
+    .display img{
+        width: 22px;
+        cursor: pointer;
+    }
+    .container button{
+        border: 0;
+        outline: 0;
+        background-color: #04c0a4;
+        color: white;
+        font-size: 16px;
+        font-weight: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 11px 18px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .container button img{
+        width: 18px;
+        margin-right: 10px;
+    }
+    h3{
+        padding: 6px 5px;
+        /* background-color: #11117d; */
+        text-align: center;
+        margin-bottom: 80%;
+        justify-content: center;
+        font-weight: 400;
+    }
+  
+    
+}
+@media (max-width: 400) {
+    .container{
+    margin: 6%;
+    width: 30%;
+    max-width: 300px;
+    }
+    .container h1{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .container h1 span{
+        color: #04c0a4;
+        border-bottom: 3px solid #04c0a4;
+        padding-bottom: 15px;
+    }
+    .display img{
+        width: 15px;
+        cursor: pointer;
+    }
+    .display input{
+        border: 0;
+        outline: 0;
+        font-size: 24px;
+    }
+    .container button{
+        border: 0;
+        outline: 0;
+        background-color: #04c0a4;
+        color: white;
+        font-size: 12px;
+        font-weight: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 11px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .container button img{
+        width: 11px;
+        margin-right: 7px;
+    }
 }

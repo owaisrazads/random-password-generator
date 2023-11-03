@@ -26,9 +26,10 @@ const allcharacter = upperCase + lowerLase + number + symbol;
         passwordBox.value = password;
         // console.log(createPassword);
 
-
+        
         function copyPassword(){
             passwordBox.ariaSelect();
             document.execCommand("copy");
         }
+
     }
